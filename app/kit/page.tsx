@@ -1,3 +1,5 @@
+'use client';
+
 import React from 'react';
 import { C, SANS, SERIF, MONO } from '@/lib/tokens';
 import { SITUATION } from '@/lib/data';
@@ -7,11 +9,6 @@ import {
 import {
   Send, Phone, Plus, ArrowRight, Check, Sparkles, Filter, Download,
 } from 'lucide-react';
-
-export const metadata = {
-  title: 'Aire — Design Kit',
-  description: 'Tokens, primitives, and patterns that make up the Aire interface.',
-};
 
 type Swatch = { name: string; value: string; ink?: boolean };
 
